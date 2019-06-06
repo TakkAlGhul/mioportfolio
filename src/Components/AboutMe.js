@@ -7,11 +7,11 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="about-grid">
-        <div className="wrapper-title" style={{ textAlign: 'center', opacity: '.6'}}>
+        <div className="wrapper-title" style={{ textAlign: 'center', opacity: '.6', marginBottom: '160px'}}>
           <h2> ＜ About Me ＞ </h2>
         </div>
         <Grid className="about-content">
-          <Cell col={4}>
+          <Cell col={4} tablet={8}>
             <div className="left-content" style={{ textAlign: "center"}}>
               <img 
                 src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortCurly&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Surprised&eyebrowType=Default&mouthType=Default&skinColor=Light"
@@ -31,7 +31,7 @@ class AboutMe extends Component {
               <Skills
                 skill="HTML/CSS"
                 progress={95}
-                buffer={5}
+                buffer={95}
                 />
                 <Skills
                   skill="JavaScript"
@@ -49,10 +49,11 @@ class AboutMe extends Component {
                       buffer={80}
                       />
                       <Skills
-                        skill="AWS"
-                        progress={40}
-                        buffer={40}
+                        skill="Swimming"
+                        progress={80}
+                        buffer={80}
                         />
+                        
             </Cell>
           </Grid>
 

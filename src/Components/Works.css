@@ -1,6 +1,40 @@
 .works {
-background: #aa4b6b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 900px;
+  width: 100%;
+  padding-bottom: 100px;
+}
 
+.work-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.card-action {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+}
+
+
+.card:hover .card-action{
+  opacity: 1;
+  transition:all 0.6s ease;
 }

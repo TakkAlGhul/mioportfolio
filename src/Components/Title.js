@@ -10,11 +10,11 @@ class Title extends Component {
          <Grid>
          <Cell col={ 12 }>
           <div className="title-text">
-            <h1 className="hello">Hello I'm Takuro</h1>
+            <h1 className="hello"> Hello I'm Takuro</h1>
             
             <hr />
 
-            <p className="intro">Web Developer | Photographer | Traveler | Blogger</p>     
+            <p className="intro">Content Creator</p>     
 
             <div className="social-links">
               <a href="http://google.com" rel="noopener noreferrer" target="_blank">

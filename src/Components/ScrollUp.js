@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-// import { toElement as scrollToElement } from 
 import './Title.css';
 
-class ScrollNext extends Component {
-  
+class ScrollUp extends Component {
   render() {
     return(
       <div className="scroll">
         <div className="arrow bounce" style={{ bounce }}>
-          <i className="fa fa-chevron-circle-down" href="#" />
+          <i className="fa fa-chevron-circle-up" href="#" />
         </div>
       </div>   
     );
@@ -22,4 +19,4 @@ const bounce = {
   color: '#fff'
 }
 
-export default ScrollNext;
+export default ScrollUp;
