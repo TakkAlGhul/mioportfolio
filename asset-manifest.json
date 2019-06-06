@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tk.portfolio/static/css/main.4560e355.chunk.css",
+    "main.js": "/tk.portfolio/static/js/main.d09f3f6a.chunk.js",
+    "main.js.map": "/tk.portfolio/static/js/main.d09f3f6a.chunk.js.map",
+    "runtime~main.js": "/tk.portfolio/static/js/runtime~main.171cb966.js",
+    "runtime~main.js.map": "/tk.portfolio/static/js/runtime~main.171cb966.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/tk.portfolio/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.7f6e9a07.chunk.js": "/tk.portfolio/static/js/2.7f6e9a07.chunk.js",
+    "static/js/2.7f6e9a07.chunk.js.map": "/tk.portfolio/static/js/2.7f6e9a07.chunk.js.map",
+    "index.html": "/tk.portfolio/index.html",
+    "precache-manifest.07f67afa96cf45ea8493e77f944574c5.js": "/tk.portfolio/precache-manifest.07f67afa96cf45ea8493e77f944574c5.js",
+    "service-worker.js": "/tk.portfolio/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/tk.portfolio/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.4560e355.chunk.css.map": "/tk.portfolio/static/css/main.4560e355.chunk.css.map"
+  }
+}
