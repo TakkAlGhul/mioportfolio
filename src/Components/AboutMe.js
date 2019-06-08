@@ -6,7 +6,7 @@ import Skills from './Skills';
 class AboutMe extends Component {
   render() {
     return (
-      <div className="about-grid">
+      <div className="about-grid" id="about">
         <div className="wrapper-title" style={{ textAlign: 'center', opacity: '.6', marginBottom: '160px'}}>
           <h2> ＜ About Me ＞ </h2>
         </div>

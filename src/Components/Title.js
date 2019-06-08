@@ -6,9 +6,9 @@ import './Title.css';
 class Title extends Component {
   render() {
     return (
-      <div className="title-grid" style={{ width: '100%', margin: 'auto' }}>
+      <div className="title-grid" id="title" style={{ width: '100%', margin: 'auto' }}>
          <Grid>
-         <Cell col={ 12 }>
+          <Cell col={ 12 }>
           <div className="title-text">
             <h1 className="hello"> Hello I'm Takuro</h1>
             

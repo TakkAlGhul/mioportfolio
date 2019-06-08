@@ -9,9 +9,11 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-mdl": "^1.11.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.11",
+    "scroll": "^3.0.1"
   },
-  "homepage": "http://username.github.io/tk.portfolio",
+  "homepage": "http://takkalghul.github.io/tk.portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -38,7 +40,4 @@
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
-  
 }
-
-

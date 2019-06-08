@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-// import { toElement as scrollToElement } from 
+import { Link } from 'react-scroll';
 import './Title.css';
 
 class ScrollNext extends Component {
-  
+
   render() {
     return(
-      <div className="scroll">
-        <div className="arrow bounce" style={{ bounce }}>
-          <i className="fa fa-chevron-circle-down" href="#" />
+      <Link
+        activeClass="active"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration= {800}
+        >
+        <div className="scroll scroll-down">
+          <div className="arrow bounce" style={{ bounce }}>
+            <i className="fa fa-chevron-circle-down" />
+          </div>
         </div>
-      </div>   
+      </Link>    
     );
   }
   
