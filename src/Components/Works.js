@@ -43,6 +43,7 @@ class Works extends Component {
             <div className="mask">  
               <h3 className="app-title">Todo App</h3>
               <div className="app-text">React app for making todo list.</div>
+              <a href="https://github.com/TakkAlGhul/chat-space">React-Todo</a>
             </div>
           </div>
             
