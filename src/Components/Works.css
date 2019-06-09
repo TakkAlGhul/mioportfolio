@@ -13,7 +13,7 @@
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-
+ 
   
 }
 
@@ -21,7 +21,7 @@
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  margin: auto;
+  margin: 20px auto;
 }
 
 
@@ -31,7 +31,6 @@
  
   border: 7px solid #f9f8eb;
   border-radius: 40px;
-  margin-top: 50px;
 }
 
 
@@ -39,7 +38,7 @@
   color: #ff5959;
   font-weight: bold;
   width:		96%;
-	height:		95%;
+	height:		96%;
 	position:		absolute;
 	top: 0;
   left:	0;
