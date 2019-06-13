@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
-import './Title.css';
+import './Scss/Title.scss';
 
 class ScrollNext extends Component {
 

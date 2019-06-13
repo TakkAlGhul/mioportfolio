@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import './Title.css';
+import './Scss/Title.scss';
 
 class ScrollUp extends Component {
 
