@@ -1,0 +1,23 @@
+// @media screen and (min-width: 1024px) {
+//   .sidebar {
+//     display: none;
+    
+//   }
+  
+// }
+ 
+.sidebar {
+  list-style: none;
+  background: #bdc3c7;
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.fa-bars {
+  font-size: 30px;
+  margin-top: 30px;
+  
+
+}
